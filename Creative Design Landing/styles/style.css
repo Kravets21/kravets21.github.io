@@ -274,7 +274,7 @@ li{
         margin-left: 0;
         width: 40px;
         height: 40px;
-        background-image: url(/img/menu.png);
+        background-image: url(../img/menu.png);
         background-size: 40px;
         background-repeat: no-repeat; 
         background-position: center;
@@ -286,7 +286,7 @@ li{
         right: 40px;
         width: 40px;
         height: 40px;
-        background-image: url(/img/close.png);
+        background-image: url(../img/close.png);
         background-size: 40px;
         background-repeat: no-repeat; 
         background-position: center;
