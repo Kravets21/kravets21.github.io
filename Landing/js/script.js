@@ -1,3 +1,25 @@
+
+function menuToggle(){
+    const togglemenu = document.querySelector('.togglemenu');
+    const menu = document.querySelector('.menu');
+    if(!$(togglemenu).hasClass('active')) 
+    {
+        $(".header-main").css("opacity", "0.4");
+        $(".header-scroll").css("opacity", "0");
+        $(".about").css("opacity", "0.9");
+
+    } 
+    else
+    {
+        $(".header-main").css("opacity", "1");
+        $(".header-scroll").css("opacity", "1");
+        $(".about").css("opacity", "1");
+    }
+    togglemenu.classList.toggle('active');
+    menu.classList.toggle('active');
+}
+
+
 $('#form-btn').on('click', function () {
     var name = $('#name').val();
     var email = $('#email').val();
